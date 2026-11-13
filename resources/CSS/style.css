@@ -1,0 +1,227 @@
+body {
+  background: #101828;
+  color: black;
+  padding: 25px;
+  font-size: 16px;
+  padding-top: 35px;
+}
+
+.nav {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 15px;
+  background-color: #101828;
+  overflow: hidden;
+  width: 93.6vw;
+  position: fixed;
+  margin-right: 15px;
+  padding: 10px;
+  border: white 2px solid;
+  border-radius: 3px;
+}
+
+button {
+    background-color: #101828;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+     transition: background-color 1s ease-in-out;
+}
+button:hover {
+    background-color: ghostwhite;
+    color: #101828;
+    border: 2px solid #101828;
+}
+
+button:active {
+    background-color: dodgerblue;
+    color: white;
+    border: 2px solid dodgerblue;
+}
+
+h1.main {
+  color: white;
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 10px;
+  font-size: 75px;
+  font-family: impact;
+  letter-spacing: 2px;
+  text-shadow: 4px 2px 3px dodgerblue;
+}
+
+.myinfo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95vw;
+  height: 100vw;
+  align-content: block-inline;
+  justify-content: center;
+  background-color: #a3bffa;
+  border-radius: 10px;
+}
+
+.dog {
+  margin-top: 15px;
+  border-radius: 3px;
+  display: flex;
+  align-content: wrap;
+  justify-content: center;
+  width: 50%;
+  height: 350px;
+}
+
+.name {
+  display: flex;
+  letter-spacing: 2px;
+  width: 60%;
+  font-size: 40px;
+  color: #101828;
+}
+
+h2.aboutme {
+  display: flex;
+  letter-spacing: 2px; 
+  align-content: center;
+  justify-content: center;
+  width: 60%;
+  font-size: 30px;
+}
+
+p.me {
+  color: #2d3748;
+  font-size: 20px;
+  display: flex;
+  width: 75%;
+}
+
+p {
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 75%;
+  font-style: arial;
+}
+
+h2.work {
+  text-align: center;
+  color: #101828;
+  display: flex;
+  width:  100%;
+  flex: wrap;
+}
+
+ #codea {
+  color: white;
+  display: block-inline;
+  
+}
+
+h2.previous {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  color: #101828;
+  display: flex;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  display: block-inline;
+  text-align: center;
+  font-size: 20px;
+}
+
+li:hover {
+  color: purple;
+}
+
+li:active {
+  font-style: red;
+}
+
+.skills {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  color: #101828;
+  display: flex;
+  width: 100%;
+}
+
+table.tb1 {
+  display: table;
+  color: #2d3748;
+  width: 75%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+.table tr {
+  display: table-row;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+h1.name {
+  text-align: center;
+  display: inline;
+  margin: 40px;
+}
+
+h2.cont {
+  text-align: left;
+  color: dodgerblue;
+  font-size: 35px;
+  font-family: impact;
+  letter-spacing: 2px;
+}
+
+h3.out {
+  text-align: inline;
+  color: ghostwhite;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+p.email {
+  color: white;
+  text-align: left;
+  display: inline;
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 700px) {
+  .myinfo, .out, .email {
+    font-size: auto;
+    display: center;
+    grid-template-columns: auto;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1250px) {
+  .myinfo, .out, .email {
+  grid-template-columns: auto;
+  display: center;
+  }
+}
